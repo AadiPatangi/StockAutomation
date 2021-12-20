@@ -1,7 +1,8 @@
 import yfinance as yf
 import climage
-
 print('A program using python to show real time stock market info on various companies and use graphics to represent the companies by presenting their logos')
+msft = yf.Ticker("MSFT")
+
 
 #Apple Holdings
 AppleIMG = climage.convert('apple.png',width = 40) #read the image
